@@ -12,9 +12,9 @@ def open_reelly(context):
 @when('Log in to the page')
 def enter_credentials(context):
     email_field = context.driver.find_element(By.ID, "email-2")
-    email_field.send_keys('fluffyandspeedy@gmail.com')
+    email_field.send_keys('placeholder email')
     password_field = context.driver.find_element(By.ID, "field")
-    password_field.send_keys('MeowMeowMeow123')
+    password_field.send_keys('placeholder password')
     login_button = context.driver.find_element(By.XPATH, '//a[@wized="loginButton"]')
     login_button.click()
     time.sleep(3)
