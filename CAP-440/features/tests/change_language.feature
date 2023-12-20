@@ -1,4 +1,4 @@
-# Created by Svetlana at 4/4/19
+# Created by Windy at 12/19/23
 Feature: Test Scenarios for language change
 
   Scenario: User can change the language from the page
